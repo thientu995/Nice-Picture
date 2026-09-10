@@ -1,0 +1,8 @@
+# Model AI: tai bang download_models.bat, hoac app tu tai lan dau chay
+Chon-Anh/models/*.onnx
+Chon-Anh/models/*.part
+
+# Goi phat hanh & cau hinh may local
+Chon-Anh-v*-win64.zip
+settings.json
+__pycache__/
