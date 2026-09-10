@@ -12,6 +12,9 @@
    - Lần mở đầu sẽ chậm hơn một chút (khoảng 1 phút), các lần sau nhanh.
 3. Trong chương trình: bấm **📁 Chọn thư mục ảnh…** → chọn thư mục chứa ảnh
    → bấm **▶ Phân tích**.
+4. Lần **Phân tích đầu tiên**, ứng dụng tự tải 2 file model AI (khoảng
+   270 MB) từ GitHub về thư mục `models` — cần kết nối mạng và chỉ xảy ra
+   một lần. Muốn tải sẵn, chạy file **download_models.bat** trước.
 
 ⚠️ Giữ nguyên cấu trúc thư mục sau khi giải nén (file exe nằm cùng các file
 liên quan và thư mục `models`).
@@ -57,6 +60,11 @@ Bấm **🔄 Kiểm tra cập nhật** trên thanh công cụ — ứng dụng s
 nếu có phiên bản mới và mở trang tải về cho bạn.
 
 ## Câu hỏi thường gặp
+
+**Model AI ở đâu ra?** Lần phân tích đầu tiên, ứng dụng tự tải về thư mục
+`models` (cần mạng, ~270 MB). Nếu máy không có mạng hoặc tải chậm, hãy tải
+model bằng **download_models.bat** trên máy khác rồi chép theo cấu trúc
+thư mục. Không có model, ứng dụng vẫn chạy bằng điểm kỹ thuật (bỏ AI).
 
 **Lần mở đầu chậm?** Lần đầu tiên sau khi giải nén, Windows cần quét các
 file của ứng dụng (khoảng 1 phút). Các lần mở sau sẽ nhanh.
