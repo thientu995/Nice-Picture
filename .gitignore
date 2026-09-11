@@ -5,4 +5,6 @@ Chon-Anh/models/*.part
 # Goi phat hanh & cau hinh may local
 Chon-Anh-v*-win64.zip
 settings.json
+_build_info.txt
+Chon-Anh/_build_info.txt
 __pycache__/
